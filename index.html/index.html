@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cool Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>เข้าสู่ระบบ</h2>
+    <form id="loginForm">
+      <div class="input-group">
+        <input type="text" id="email" placeholder="อีเมล" required>
+      </div>
+      <div class="input-group">
+        <input type="password" id="password" placeholder="รหัสผ่าน" required>
+      </div>
+      <button type="submit" id="loginBtn">เข้าสู่ระบบ</button>
+      <button type="button" id="demoBtn">บัญชีตัวอย่าง</button>
+      <div class="links">
+        <a href="#" id="forgot">ลืมรหัสผ่าน?</a> |
+        <a href="#" id="signup">สมัครสมาชิก</a>
+      </div>
+      <p id="message"></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
